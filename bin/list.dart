@@ -11,4 +11,6 @@ void main() {
   myList.forEach((element) {
     print(element);
   });
+
+  myList.map((e) => print(e)).toList();
 }
