@@ -9,16 +9,16 @@ class PersegiPanjang {
     _panjang = value;
   }
 
+  double getLuas() {
+    return _panjang! * _lebar!;
+  }
+
   set lebar(double value) {
     if (value < 0) {
       value * -1;
     }
 
     _lebar = value;
-  }
-
-  double hitunLuas() {
-    return _panjang! * _lebar!;
   }
 
   double get luas => _panjang! * _lebar!;

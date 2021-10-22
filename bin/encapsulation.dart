@@ -13,7 +13,7 @@ void main() {
   kotak2.setPanjang(double.tryParse(stdin.readLineSync()!)!);
   kotak2.lebar = double.tryParse(stdin.readLineSync()!)!;
 
-  luasKotak1 = kotak1.hitunLuas();
+  luasKotak1 = kotak1.getLuas();
 
   print(luasKotak1);
   print(kotak2.luas);
