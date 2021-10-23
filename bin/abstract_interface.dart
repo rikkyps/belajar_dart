@@ -2,7 +2,6 @@ import 'package:dart_example/monster.dart';
 import 'package:dart_example/monster_godzilla.dart';
 import 'package:dart_example/monster_gorilla.dart';
 import 'package:dart_example/monster_gorzilla.dart';
-import 'package:dart_example/monster_prilaku_mixin.dart';
 
 void main() {
   List<Monster> monsters = [];
